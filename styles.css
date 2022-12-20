@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10% auto;
+}
+
+.image img{
+    position: fixed;
+    width: 85%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.image .eth-image{
+    position: relative;
+}
+
+.image .view{
+    width: 255px;
+    padding: 100px;
+    background: #00fff783;
+    opacity: 0;
+}
+
+.image .view:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.image img:hover{
+    cursor: pointer;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texts{
+    padding: 22px;
+}
+
+.texts h1{
+    color: #fff;
+    font-size: 20px;
+}
+
+.texts h1:hover{
+    cursor: pointer;
+    color: #00fff7;
+}
+
+.texts p{
+    color: #8bacd9;
+    font-size: 15px;
+    
+    margin-top: 10px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25px;
+    margin-left: 25px;
+    color: #8bacd9;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.eth {
+    color: #00fff7;
+}
+
+.eth, .clock {
+    display: flex;
+    align-items: center;
+    
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin: 20px;
+    color: #8bacd9;
+    border-top: 1px solid #8bacd9;
+    padding: 20px 0px 30px 0px;
+}
+
+.avatar img{
+    width: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.438);
+    border-radius: 50%;
+}
+
+.avatar a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.avatar a:hover{
+    cursor: pointer;
+    color: #00fff7;
+}
